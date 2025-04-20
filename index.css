@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Outfit:wght@100..900&family=Prata&display=swap');
+@import "tailwindcss";
+a.active hr{
+    display: block;
+}
+*{
+    font-family: Outfit;
+}
+.inder-regular {
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  @media (max-width:640px) {
+    a.active{
+        background-color: black;
+        color: white;
+    }
+  }
